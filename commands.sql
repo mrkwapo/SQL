@@ -1,4 +1,4 @@
---create a table and schema:
+--creating a table and schema:
 
 create table Stock
 (
