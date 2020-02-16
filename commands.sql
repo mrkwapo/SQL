@@ -29,6 +29,6 @@ DELETE Stock;
 INSERT INTO Stock (Symbol, Last_Price, Change, Change_Percentage, Currency, Market_Time, Volume, Average_Volume, Market_Cap, ScrapeDate)
 VALUES ('AAPL','2000', '.5', '1%', 'USD', '4:00', '1000', '450', '10000', '2/20/2020');
 
---Delete and reseed
+--Delete and reseed table
 DELETE FROM Stock;
 DBCC CHECKIDENT (Stock, RESEED, 0);
