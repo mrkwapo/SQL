@@ -8,7 +8,7 @@ create table Stock
 	DateOfPrice date
 )
 
--- get all data from a table
+-- get all data from a table named Stock
 
 select *
 from Stock
